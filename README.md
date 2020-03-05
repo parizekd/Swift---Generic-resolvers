@@ -1,6 +1,6 @@
 # Swift---Generic-resolvers
 
-##Swift - resolve table cell by generic
+## Swift - resolve table cell by generic
 
 Usage:
 
@@ -19,7 +19,7 @@ class MyCellTableViewCell: UITableViewCell, IdentifierProtocol {
 ```
 
 
-##Swift - resolve viewController from storyboard
+## Swift - resolve viewController from storyboard
 
 Controller implementation:
 ```swift
