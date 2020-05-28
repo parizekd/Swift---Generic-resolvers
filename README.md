@@ -15,6 +15,10 @@ class MyCellTableViewCell: UITableViewCell, IdentifierProtocol {
     func registerCell() {
         myTable.registerCell(cell: MyCellTableViewCell.self)
     }
+    
+    func getCell() -> UITableViewCell {
+        let cell: MyCellTableViewCell = tableview.resolveCellIdentifier()
+    }
 }
 ```
 
