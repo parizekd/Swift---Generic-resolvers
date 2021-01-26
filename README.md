@@ -34,7 +34,7 @@ class MyViewController: IdentifierProtocol, ControllerIdentifierProtocol {
 
 Resolve ViewController from storyboard:
 ```swift
-func loadMyViewController(concept: ConceptWithBrand) {
+func loadMyViewController() {
     let myVc = MyViewController.loadFromStoryboard()
 }
 ```
